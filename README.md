@@ -18,6 +18,14 @@ In the below visualized environment, the goal state is marked as green, positive
 
 Random Steps Visualization:  
 ![image](https://github.com/user-attachments/assets/a34600ae-a354-4a15-b20f-dbf5c8a81807)  
-![image](https://github.com/user-attachments/assets/b1c3fe3f-eca4-4b7f-9a45-d2fbbebb0f8b)
+![image](https://github.com/user-attachments/assets/b1c3fe3f-eca4-4b7f-9a45-d2fbbebb0f8b)  
+
+**Safety in AI:**  
+• The environment restricts the agent to stay within the defined grid boundaries, preventing it from going out of boundary.  
+• The environment also checks the validity of actions before applying them. If it is an invalid action, it will raise a ValueError.  
+• The environment also provides a transparent interface for actions through the ‘step’ and ‘reset’ methods. It also checks for terminal conditions to ensure the agent’s safety.  
+• The state space is discretized and the ‘state_to_index’ method makes sure that the agent navigates within the defined state space.  
+• The environment also enforces a maximum step limit, preventing prolonged interactions and enhancing the safety of our agent by ensuring the controlled exploration.  
+
 
 
