@@ -16,6 +16,7 @@ In the below visualized environment, the goal state is marked as green, positive
 
 ![image](https://github.com/user-attachments/assets/3985a158-4072-47d1-aabb-ccd3b23b36bc)  
 
+Random Steps Visualization:  
 ![image](https://github.com/user-attachments/assets/a34600ae-a354-4a15-b20f-dbf5c8a81807)  
 ![image](https://github.com/user-attachments/assets/b1c3fe3f-eca4-4b7f-9a45-d2fbbebb0f8b)
 
