@@ -48,3 +48,27 @@ Random Steps Visualization:
 • Slow convergency because of on-policy learning  
 • Sensitive to hyperparameter choices  
 • Exploration-exploitation trade-off challenges  
+
+**Double Q-Agent:**  
+**Update Function:**   
+• This agent chooses actions based on an epsilon-greedy policy.  
+• This agent uses the Double Q-Learning algorithm.  
+• The Q-values are updates using the formula –   
+![image](https://github.com/user-attachments/assets/650b72ac-bee8-4263-ae81-97458f832889)  
+where s is current state, a is current action, s’ is next state, a’ is next action, r is reward, alpha is learning rate, gamma is discount factor, i and j alternate between Q1 and Q2.  
+**Key Features:**  
+• Improves stability  
+• Improves convergence  
+• Addresses overestimation bias present in traditional Q-Learning.  
+**Advantages:**  
+• Mitigates overestimation issues  
+• Enhances stability by using two sets of Q-values for better learning  
+• Mitigates risk of learning from noisy estimates  
+• Suitable for environments with high stochasticity  
+**Disadvantages:**  
+• Increased computational complexity due to maintaining two Q-tables  
+• Sensitivity to hyperparameter choices  
+• Requires more memory compared to standard Q-Learning  
+
+
+#
