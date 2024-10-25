@@ -28,4 +28,23 @@ Random Steps Visualization:
 • The environment also enforces a maximum step limit, preventing prolonged interactions and enhancing the safety of our agent by ensuring the controlled exploration.  
 
 
-
+# SARSA Agent:  
+**Update Function:**   
+• This agent chooses actions based on an epsilon-greedy policy.  
+• This agent uses the SARSA (State Action Reward State Action) algorithm.  
+• The Q-values are updates using the formula –  
+![image](https://github.com/user-attachments/assets/028d6050-dcdb-40f8-811e-356c0748d56e)  
+ where s is current state, a is current action, s’ is next state, a’ is next action, r is reward, alpha is learning rate and gamma is discount factor.  
+**Key Features:**  
+• Simple  
+• Easy to implement  
+• Balances exploration-exploitation using epsilon-greedy strategy   
+• Suitable for episodic tasks  
+**Advantage:**  
+• Converges for certain problems, is model-free, and well-suited for online learning.  
+• Guarateed Policy improvement  
+• On-policy learning ensures safety in real-world applications  
+**Disadvantages:**  
+• Slow convergency because of on-policy learning  
+• Sensitive to hyperparameter choices  
+• Exploration-exploitation trade-off challenges  
