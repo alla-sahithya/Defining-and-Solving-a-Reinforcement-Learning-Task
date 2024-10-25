@@ -11,3 +11,12 @@
   o If the goal state is reached  
   o If the max steps given is exceeded  
 • The rewards will not be null once after collected. They will remain the same.  
+
+In the below visualized environment, the goal state is marked as green, positive rewards with teal, negative rewards with blue, and the agent’s current position is denoted by yellow.  
+
+![image](https://github.com/user-attachments/assets/3985a158-4072-47d1-aabb-ccd3b23b36bc)  
+
+![image](https://github.com/user-attachments/assets/a34600ae-a354-4a15-b20f-dbf5c8a81807)  
+![image](https://github.com/user-attachments/assets/b1c3fe3f-eca4-4b7f-9a45-d2fbbebb0f8b)
+
+
